@@ -1,0 +1,37 @@
+<style>
+  .body {
+    background-image: url('https://images3.alphacoders.com/836/836161.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
+  }
+</style>
+
+
+<div class="body">
+
+
+<div class="container">
+    <div class="row">
+      @for( item of districts ; track item.id) {
+    <div class="col-lg-3 pt-2">
+      <div class="card my-2" style="width: 18rem; height:26rem">
+        <img src="{{ item.image }}" class="img1 card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ item.title }}</h5>
+           <p class="card-text">
+             {{ item.discription| slice:0:100 }} ......
+
+           </p>
+          <a [routerLink]="['/district',item.id]" class="btn btn-primary">See more</a>
+  
+   
+  
+          
+        </div>
+      </div>
+    </div>
+    }
+    </div>
+
+  </div>

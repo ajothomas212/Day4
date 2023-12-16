@@ -1,0 +1,91 @@
+.carousel-inner{
+    height: 700px;
+}
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    overflow-x: hidden;
+    color: white;
+    background-color: #2C353C;
+}
+a { 
+    transition: all 0.3s ease; 
+    text-decoration: none;
+}
+
+ul { padding: 0; }
+a:hover { text-decoration: none; }
+button:focus { outline: none; }
+p { line-height: 1.9; }
+.tm-logo { margin-right: 20px; }
+.tm-slogan { font-size: 0.8rem; }
+
+/* Navigation */
+.navbar-toggler {
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 0;
+    transform: skewX(-15deg);
+    background-color: rgba(0,0,0,0.5);
+    color:black;    
+}
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 15px;
+    text-align: right;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 300px; /* Adjust as needed */
+  }
+  .carousel-caption {
+    text-align: justify; 
+    margin-bottom:20px;/* Adjust text alignment as needed */
+  }
+
+  .carousel-caption h5 {
+    font-size: 24px; /* Adjust heading font size as needed */
+  }
+
+  .carousel-caption p {
+    font-size: 16px; /* Adjust paragraph font size as needed */
+  }
+
+  .additional-text {
+    font-size: 40px; /* Adjust additional text font size as needed */
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: black;
+    position: absolute; /* Added for positioning */
+    top: 40%; /* Adjust as needed */
+    left: 62%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the text */
+  }
+
+  .main-heading {
+    font-size: 1000px; /* Adjust font size for the main heading "God’s Own Country" */
+    font-weight: bold; /* Optional: Make the main heading bold */
+    color: black;
+    position: absolute; /* Added for positioning */
+    top: 25%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the text */
+  }
+.container{
+    margin-top:20px;
+}
+p{
+    
+        margin-top: 10;
+        margin-bottom: 300rem;
+    
+}
+p {
+    line-height: 1.9;
+}

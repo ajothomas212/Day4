@@ -1,0 +1,13 @@
+
+.name {
+    margin-top: 5px; /* Adjust the spacing between image and name */
+    font-size: 30px; /* Adjust the font size of the name */
+    font-weight: normal; /* Adjust font weight if needed */
+}
+.img1{
+    height: 200px;
+}
+image{
+    height: 300px;
+}
+
